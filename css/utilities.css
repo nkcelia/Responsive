@@ -26,12 +26,7 @@
   background-color: transparent;
   border: 1px #fff solid;
 }
-.flex{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
+
 .btn:hover{
   transform: scale(0.98);
 }
@@ -64,7 +59,7 @@
 /*text color*/
 .text-primary {
   background-color: var(--primary-color);
-  color: transparent;
+
 }
 
 .text-secondary{
@@ -114,6 +109,12 @@
 .alert-error {
   background-color: var(--error-color);
   color:#fff;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 .grid{
   display: grid;

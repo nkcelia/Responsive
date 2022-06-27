@@ -85,7 +85,7 @@ code, pre{
 }
 .showcase .grid{
   overflow: visible;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 55% auto;
   gap: 30px;
 }
 .showcase-text{
@@ -228,6 +228,8 @@ grid-column: 1/span 3;
 .footer .social a {
   margin: 0 10px;
 }
+
+
 /*Animation*/
 @keyframes slideInFromLeft {
   0%{
@@ -320,4 +322,7 @@ grid-column: 1/span 3;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
    }
+   .showcase-form {
+    width: 300px;
+  }
   }
